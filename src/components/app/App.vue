@@ -82,6 +82,7 @@ export default {
             this.search = item;
         },
         addNew(item) {
+            console.log(item);
             this.movies.unshift(item);
         },
         deleteOne(id) {
